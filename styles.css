@@ -1,29 +1,48 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
 body {
-        background-color: pink;
-        color: #0f141e;
+  background: pink;
+  color: #0f141e;
 
-        font: normal 15px 'Roboto', sans-serif;
+  font: normal 15px "Roboto", sans-serif;
 }
 
 h1 {
-        color: white;
-        font-size: 40px;
+  color: white;
+  font-size: 40px;
 }
 
 strong {
-        font-size: 18px;
+  font-size: 18px;
 }
 
 .avatar {
-        width: 200px;
-        border-radius: 50%;
-        box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+  width: 200px;
+  border-radius: 50%;
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.5);
+}
 
+.form input {
+  border-style: hidden;
+  height: 20px;
+  border-radius: 5%;
+}
+
+.gitRepo {
+  font-size: 20px;
+}
+
+.fieldForm {
+  padding: 10px;
 }
 
 .info p {
-        font-size: 17px;
-        color: #981a53;
+  margin: 0;
+  font-style: italic;
+  font-size: 17px;
+  color: rgb(171, 67, 67);
+}
+
+.socials {
+  /* background: cyan; */
 }
